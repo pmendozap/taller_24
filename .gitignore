@@ -1,0 +1,12 @@
+**/vivado_project/*
+**/*jou
+**/*log
+**/rpt*
+
+#For IP files only the XCI files are needed
+#ignore all miscellaneous IP files
+src/ips/**/*.*
+#do not ignore the XCI files
+!src/ips/**/*.xci
+
+**/gtkwave_vcd/**/*
